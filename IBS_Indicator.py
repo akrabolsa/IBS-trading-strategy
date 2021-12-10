@@ -1,18 +1,16 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  9 16:56:48 2021
 
 @author: Usuario
 """
 
-#%%Primero lo que hacemos es descargar todos los datos necesarios
-# Tambien el paquete bt que es para backtesting strategias
+#%%We get data
 
 import yfinance as yf
 from datetime import date,timedelta
 import pandas as pd
 import numpy as np
-#import bt
 from matplotlib import pyplot as plt
 %matplotlib inline
 
